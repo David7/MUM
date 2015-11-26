@@ -14,9 +14,7 @@ public class Main {
 			System.out.println("the Total of PairOfDice1 is: "+(mPairOfDice1.die1+mPairOfDice1.die2)+", the Total of PairOfDice2 is: "+(mPairOfDice2.die1+mPairOfDice2.die2));
 			iCount++;
 			if((mPairOfDice1.die1+mPairOfDice1.die2)==(mPairOfDice2.die1+mPairOfDice2.die2))
-			{
 				break;
-			}
 		}
 			
       // Display how many times needed to get the same total
